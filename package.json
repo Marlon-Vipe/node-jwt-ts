@@ -1,0 +1,11 @@
+{
+  "name": "jwt-ts",
+  "version": "0.0.1",
+  "description": "Proyecto Node con Typescript, PostgresSQL y JWT Auth",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marlon Villalona",
+  "license": "ISC"
+}
