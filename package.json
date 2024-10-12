@@ -4,7 +4,7 @@
   "description": "Proyecto Node con Typescript, PostgresSQL y JWT Auth",
   "main": "src/app.js",
   "scripts": {
-    "dev": "tsnd --respawn --clear src/app.ts"
+    "dev": "tsnd --respawn --clear src/server.ts"
   },
   "author": "Marlon Villalona",
   "license": "ISC",
