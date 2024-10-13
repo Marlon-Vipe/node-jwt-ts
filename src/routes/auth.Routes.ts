@@ -3,6 +3,7 @@ import { register } from '../controllers/authController'
 
 const router = express.Router()
 
+router.get('/register', register)
 router.post('/register', register)
 router.post('/login', () => {})
 
