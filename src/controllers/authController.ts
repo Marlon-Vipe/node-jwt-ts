@@ -36,7 +36,7 @@ export const register = async(req: Request, res: Response): Promise<void> => {
         }
         console.log(error);
         res.status(500).json({
-            eror: 'Hubo un error en el registro'
+            eror: 'Hubo un error en el registro. Favor intentar nuevamente.'
         })
     }
 
